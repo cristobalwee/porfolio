@@ -16,12 +16,23 @@
 * {
   margin: 0;
   padding: 0;
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 
 body {
   height: 100%;
   width: 100%;
   color: #2C2C2C;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
 }
 
 body > div {
@@ -33,12 +44,14 @@ body > div {
 h1 {
   font-family: 'Inknut', serif;
   text-align: center;
+  font-size: 36px !important;
 }
 
 p {
-  padding: 10px 20vw;
+  padding: 10px 25vw;
   font-family: 'Open-sans', sans-serif;
   text-align: justify;
+  font-size: 18px !important
 }
 
 a {
@@ -47,4 +60,25 @@ a {
 
 a:hover {
   color: #2C2C2C;
+}
+
+img {
+  height: 2rem !important;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+  h1 {
+    font-size: 36px !important;
+  }
+
+  p {
+    padding: 10px 15vw;
+    font-size: 18px !important
+  }
+
+  img {
+    height: 2rem !important;
+    margin-top: 10px;
+  }
 }
