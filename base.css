@@ -45,12 +45,13 @@ h1 {
   font-family: 'Inknut', serif;
   text-align: center;
   font-size: 2rem;
+  margin-bottom: -10px;
 }
 
 p {
-  padding: 10px 25vw;
+  padding: 10px 30vw;
   font-family: 'Open-sans', sans-serif;
-  text-align: left;
+  text-align: justify;
 }
 
 a {
@@ -76,5 +77,9 @@ img {
 @media only screen and (max-width: 425px) {
   body > div {
     top: 45vh;
+  }
+
+  p {
+    padding: 10px 10vw;
   }
 }
