@@ -44,14 +44,13 @@ body > div {
 h1 {
   font-family: 'Inknut', serif;
   text-align: center;
-  font-size: 36px !important;
+  font-size: 1.5rem;
 }
 
 p {
   padding: 10px 25vw;
   font-family: 'Open-sans', sans-serif;
-  text-align: justify;
-  font-size: 18px !important
+  text-align: left;
 }
 
 a {
@@ -68,17 +67,14 @@ img {
 }
 
 @media only screen and (max-width: 1000px) {
-  h1 {
-    font-size: 36px !important;
-  }
-
   p {
     padding: 10px 15vw;
     font-size: 18px !important
   }
+}
 
-  img {
-    height: 2rem !important;
-    margin-top: 10px;
+@media only screen and (max-width: 425px) {
+  body > div {
+    top: 45vh;
   }
 }
