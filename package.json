@@ -1,0 +1,24 @@
+{
+  "name": "porfolio",
+  "version": "1.0.0",
+  "description": "Decided to rebrand and refresh my site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristobalwee/porfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cristobalwee/porfolio/issues"
+  },
+  "homepage": "https://github.com/cristobalwee/porfolio#readme",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
